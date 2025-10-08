@@ -1,7 +1,6 @@
 header {
-  padding: 2rem;
   background: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 nav {
   position: sticky;
@@ -19,5 +18,43 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
 }
+
+
+.cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #222;
+	color: #fff;
+  flex-direction: column;
+}
+
+.title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	opacity: 0;
+	animation: fadeIn 2s forwards ease-in;
+}
+
+.subtitle {
+	font-size: 1rem;
+	text-transform: uppercase;
+	opacity: 0;
+	animation: fadeIn 3s forwards ease-in;
+}
+
+.nav ul {
+	opacity: 0;
+	animation: fadeIn 3s forwards ease-in; 
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+
