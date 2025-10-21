@@ -104,7 +104,7 @@
             color: #fff;
             text-decoration: none;
             font-size: 1.3rem;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Casper-M;
             letter-spacing: 0.1em;
             transition: opacity 0.3s;
         }
@@ -155,7 +155,7 @@
 
 .hero h1 {
     font-size: 2.5vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Casper-M;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 1.4;
@@ -178,7 +178,7 @@
 
 .hero p {
     font-size: 2.5vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Casper-L;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 1.5;
@@ -298,7 +298,7 @@
         }
 
         .gallery-overlay h6 {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Casper-L;
             font-size: 3rem;
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
