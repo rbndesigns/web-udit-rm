@@ -119,10 +119,14 @@
             margin: 0rem 0;
         }
 
+        .captura-item {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: #1a1a1a;
+        }
+
         .captura-item img {
             width: 100%;
             height: auto;
-            display: block;
         }
 
         .captura-descripcion {
@@ -133,46 +137,9 @@
             padding: 0 1rem;
         }
 
-        .conclusion-section {
-            padding: 6rem 4rem;
-            max-width: 1200px;
-            margin: 0 auto;
-            text-align: center;
-        }
+  
 
-        .conclusion-section h2 {
-            font-family: Casper-M;
-            font-size: 3rem;
-            letter-spacing: 0.05em;
-            margin-bottom: 2rem;
-        }
-
-        .conclusion-section p {
-            font-family: Satoshi-R;
-            font-size: 1.2rem;
-            line-height: 1.8;
-            opacity: 0.9;
-        }
-
-        .volver-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 1rem;
-            color: #fff;
-            text-decoration: none;
-            font-family: Casper-M;
-            font-size: 1rem;
-            letter-spacing: 0.1em;
-            padding: 1rem 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            transition: all 0.3s ease;
-            margin-top: 3rem;
-        }
-
-        .volver-btn:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: #fff;
-        }
+    
 
         @media (max-width: 1152px) {
             .proyecto-hero {
@@ -219,7 +186,5 @@
         min-height: 300px;
     }
 
-    .conclusion-section h2 {
-        font-size: 2rem;
-    }
+
 }
