@@ -1,25 +1,25 @@
   @font-face {
     font-family: Satoshi-R;
-    src: url(/assets/fonts/Satoshi-Regular.otf);
+    src: url(../assets/fonts/Satoshi-Regular.otf);
 }
 
   @font-face {
     font-family: Satoshi-B;
-    src: url(/assets/fonts/Satoshi-Bold.otf);
+    src: url(../assets/fonts/Satoshi-Bold.otf);
 }
 
 
 @font-face {
     font-family: Casper-M;
-    src: url(/assets/fonts/CasperDisplay\ Medium.ttf);
+    src: url(../assets/fonts/CasperDisplay\ Medium.ttf);
 }
 @font-face {
     font-family: Casper-L;
-    src: url(/assets/fonts/CasperDisplay\ Light.ttf);
+    src: url(../assets/fonts/CasperDisplay\ Light.ttf);
 }
 @font-face {
     font-family: Casper-R;
-    src: url(/assets/fonts/CasperDisplay\ Regular.ttf);
+    src: url(../assets/fonts/CasperDisplay\ Regular.ttf);
 }
   
     * {
