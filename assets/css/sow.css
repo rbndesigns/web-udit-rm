@@ -1,25 +1,25 @@
   @font-face {
     font-family: Satoshi-R;
-    src: url(../assets/fonts/Satoshi-Regular.otf);
+    src: url(/assets/fonts/Satoshi-Regular.otf);
 }
 
   @font-face {
     font-family: Satoshi-B;
-    src: url(../assets/fonts/Satoshi-Bold.otf);
+    src: url(/assets/fonts/Satoshi-Bold.otf);
 }
 
 
 @font-face {
     font-family: Casper-M;
-    src: url(../assets/fonts/CasperDisplay\ Medium.ttf);
+    src: url(/assets/fonts/CasperDisplay\ Medium.ttf);
 }
 @font-face {
     font-family: Casper-L;
-    src: url(../assets/fonts/CasperDisplay\ Light.ttf);
+    src: url(/assets/fonts/CasperDisplay\ Light.ttf);
 }
 @font-face {
     font-family: Casper-R;
-    src: url(../assets/fonts/CasperDisplay\ Regular.ttf);
+    src: url(/assets/fonts/CasperDisplay\ Regular.ttf);
 }
   
     * {
@@ -104,7 +104,7 @@
             color: #fff;
             text-decoration: none;
             font-size: 1.3rem;
-            font-family: Casper-M;
+            font-family: Arial, Helvetica, sans-serif;
             letter-spacing: 0.1em;
             transition: opacity 0.3s;
         }
@@ -155,7 +155,7 @@
 
 .hero h1 {
     font-size: 2.5vw;
-    font-family: Casper-M;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 1.4;
@@ -178,7 +178,7 @@
 
 .hero p {
     font-size: 2.5vw;
-    font-family: Casper-L;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 1.5;
@@ -298,7 +298,7 @@
         }
 
         .gallery-overlay h6 {
-            font-family: Casper-L;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 3rem;
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
@@ -310,17 +310,7 @@
             transform: translateY(0);
         }
 
-        .gallery-overlay p {
-            font-family: Satoshi-R;
-
-            font-size: 1rem;
-            font-weight: 300;
-            letter-spacing: 0.05em;
-            line-height: 1.6;
-            max-width: 500px;
-            transform: translateY(20px);
-            transition: transform 0.4s ease 0.2s;
-        }
+    
 
         .gallery-overlay i {
             font-size: 6rem;
