@@ -1,175 +1,221 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
-  <link rel="stylesheet" href="../assets/css/sow.css">
-  <link rel="stylesheet" href="../assets/css/ejercicio1.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
+    <link rel="stylesheet" href="../assets/css/sow.css" />
+    <link rel="stylesheet" href="../assets/css/ejercicio1.css" />
 
     <!-- enlace remix icons -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
 
+    <!-- Enlace a Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Enlace a Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">  
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-
-
-   <!-- jQuery -->
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-   <!-- Enlace al CSS de AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Enlace al CSS de AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <body>
+    <header data-aos="fade-down" data-aos-duration="2000">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_VerticalBlanco.svg?updatedAt=1760980637728"
+            alt=""
+        /></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-</head>
+      <nav id="nav">
+        <a href="web-1.html">WEB 1</a>
+        <a href="web-2.html">WEB 2</a>
+        <a href="web-3.html">WEB 3</a>
+        <a href="web-4.html">WEB 4</a>
+      </nav>
 
-<body>
-   <header data-aos="fade-down" data-aos-duration="2000">
-           <div class="logo">
-          <a href="index.html"><img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_VerticalBlanco.svg?updatedAt=1760980637728" alt=""></a>
-        </div>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <nav id="nav">
-            <a href="web-1.html">WEB 1</a>
-            <a href="web-2.html">WEB 2</a>
-            <a href="web-3.html">WEB 3</a>
-            <a href="web-4.html">WEB 4</a>
-        </nav>
-
-        <div class="icono-derecha">
-            <img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Isotipo_Blanco.svg?updatedAt=1760980637768" alt="">
-        </div>
-
+      <div class="icono-derecha">
+        <img
+          src="https://ik.imagekit.io/jzanz3klfl/portfolio/Isotipo_Blanco.svg?updatedAt=1760980637768"
+          alt=""
+        />
+      </div>
     </header>
 
     <main>
-        <section class="proyecto-hero" data-aos="fade-up">
-            <h1>INK GAMES</h1>
-            
-            <div class="proyecto-meta">
-                <div>
-                    <strong>CATEGORÍA</strong>
-                    <span>Gaming / Play-to-earn</span>
-                </div>
-                <div>
-                    <strong>PREMIOS</strong>
-                    <span>Awwwards</span>
-                </div>
-                <div>
-                    <strong>AÑO</strong>
-                    <span>2024</span>
-                </div>
-            </div>
+      <section class="proyecto-hero" data-aos="fade-up">
+        <h1>INK GAMES</h1>
 
-
-            <a href="https://inkgames.com/" class="proyecto-link" target="_blank">
-                VISITAR SITIO WEB
-                <i class="ri-external-link-line"></i>
-            </a>
-        </section>
-
-        <div class="proyecto-imagen-principal" data-aos="fade-up">
-            <iframe src="https://inkgames.com/" title="Vista previa del sitio web"></iframe>
+        <div class="proyecto-meta">
+          <div>
+            <strong>CATEGORÍA</strong>
+            <span>Gaming / Play-to-earn</span>
+          </div>
+          <div>
+            <strong>PREMIOS</strong>
+            <span>Awwwards</span>
+          </div>
+          <div>
+            <strong>AÑO</strong>
+            <span>2024</span>
+          </div>
         </div>
 
-        <section class="analisis-section">
-            <div class="analisis-grid">
-                <div class="analisis-item" data-aos="fade-up">
-                    <h3>DISEÑO VISUAL</h3>
-                    <p>
-                        El diseño visual de la web de INK Games destaca por su energía y estilo moderno, utilizando elementos 3D  logra transmitir movimiento y profundidad. Su estética lúdica se transimite a través de  animaciones y un uso creativo del color, las formas y la tipografía. La aparición de personajes añade un toque narrativo y humano, fortaleciendo la identidad de marca y la idea de descubrimiento y recompensa.
-                    </p>
-                </div>
+        <a href="https://inkgames.com/" class="proyecto-link" target="_blank">
+          VISITAR SITIO WEB
+          <i class="ri-external-link-line"></i>
+        </a>
+      </section>
 
-                <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>EXPERIENCIA DE USUARIO</h3>
-                    <p>
-                        La experiencia de usuario logra un equilibrio impecable entre la creatividad visual y la funcionalidad práctica. Su estructura de información está cuidadosamente diseñada para guiar al usuario de forma clara a través de las diferentes secciones ( a pesar de los múltiples recursos que aparecen en pantalla). 
-                        Además hay numerosas micro-interacciones, que aportan fluidez y respuesta inmediata a las acciones del usuario. 
-                </div>
+      <div class="proyecto-imagen-principal" data-aos="fade-up">
+        <iframe
+          src="https://inkgames.com/"
+          title="Vista previa del sitio web"
+        ></iframe>
+      </div>
 
-                <div class="analisis-item" data-aos="fade-up">
-                    <h3>INNOVACIÓN</h3>
-                    <ul>
-                        <li>Uso avanzado de librerías de animación de alto rendimiento.</li>
-                        <li>Múltiples elementos 3D perfectamente renderizados.</li>
-                        <li>Utiliaz lazy loading para no colapsar la web.</li>
-                    </ul>
-                </div>
-
-                <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>NARRATIVA VISUAL</h3>
-                    <p>
-                        La narrativa visual del sitio web guía al usuario a través del scroll como un medio para contar una historia de recompensa y participación. La estructura del relato sigue una progresión lógica y motivadora, diseñada para llevar al usuario desde la curiosidad del juego hasta la promesa de la recompensa económica.
-                    </p>
-                </div>
-            </div>
-
-
-            <h2 class="elementos-destacados"> ELEMENTOS DESTACADOS</h2>
-            <div class="capturas-grid">
-                <div class="captura-item" data-aos="fade-up">
-                    <img src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%201%20INK%20GAMES.png?updatedAt=1761048640431" alt="Hero Section">
-                    <p class="captura-descripcion">Tarjeta donde se combina el 2D con el 3D.</p>
-                </div>
-
-                <div class="captura-item" data-aos="fade-up">
-                    <img src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%202%20INK%20GAMES.png?updatedAt=1761048640195">
-                    <p class="captura-descripcion">Scroll interactivo, a medida que el usuario hace scroll-down, el texto se rellena de blanco.
-                    </p>
-                </div>
-
-
-            </div>
-        </section>
-
-        <section class="conclusion-section" data-aos="fade-up">
-            <h2>CONCLUSIÓN</h2>
+      <section class="analisis-section">
+        <div class="analisis-grid">
+          <div class="analisis-item" data-aos="fade-up">
+            <h3>DISEÑO VISUAL</h3>
             <p>
-                La principal fortaleza de INK GAMES es el impacto visual y la creatividad, con sus animaciones transmiten una sensación de profundidad construyendo una marca con personalidad y de alta calidad. El uso estratégico de elementos 3D como las tarjetas superpuestas, guían al usuario a través de su propuesta de valor "Jugar para ganar" de manera controlada. Sin embargo, su principal debilidad se encuentra en la Usabilidad (el puntaje más bajo en Awwwards), la intensidad de estas animaciones y la carga visual generan una leve fricción o lentitud en el rendimiento. Para ser impecable, INK Games debería mejorar la optimización de sus recursos visuales, asegurando que la experiencia no se traduzca en una espera frustrante o una degradación de la fluidez en dispositivos menos potentes.
+              El diseño visual de la web de INK Games destaca por su energía y
+              estilo moderno, utilizando elementos 3D logra transmitir
+              movimiento y profundidad. Su estética lúdica se transimite a
+              través de animaciones y un uso creativo del color, las formas y la
+              tipografía. La aparición de personajes añade un toque narrativo y
+              humano, fortaleciendo la identidad de marca y la idea de
+              descubrimiento y recompensa.
             </p>
+          </div>
 
-        </section>
+          <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>EXPERIENCIA DE USUARIO</h3>
+            <p>
+              La experiencia de usuario logra un equilibrio impecable entre la
+              creatividad visual y la funcionalidad práctica. Su estructura de
+              información está cuidadosamente diseñada para guiar al usuario de
+              forma clara a través de las diferentes secciones ( a pesar de los
+              múltiples recursos que aparecen en pantalla). Además hay numerosas
+              micro-interacciones, que aportan fluidez y respuesta inmediata a
+              las acciones del usuario.
+            </p>
+          </div>
 
-        </section>
+          <div class="analisis-item" data-aos="fade-up">
+            <h3>INNOVACIÓN</h3>
+            <ul>
+              <li>
+                Uso avanzado de librerías de animación de alto rendimiento.
+              </li>
+              <li>Múltiples elementos 3D perfectamente renderizados.</li>
+              <li>Utiliaz lazy loading para no colapsar la web.</li>
+            </ul>
+          </div>
 
-    </main>
-    
-
-    <footer data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="1500"id="contacto">
-        <h2>CONTACTO</h2>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_HorizontalBlano.svg?updatedAt=1760980637733" alt="">
-            </div>
-            <div class="social-links">
-                <a target="_blank" href="https://www.instagram.com/rbn.designs/">INSTAGRAM</a>
-                <a target="_blank"  href="https://www.linkedin.com/in/rub%C3%A9n-mardomingo-dom%C3%ADnguez-353567361/">LINKEDIN</a>
-                <a  target="_blank" href="https://www.behance.net/rubnm2">BEHANCE</a>
-            </div>
+          <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>NARRATIVA VISUAL</h3>
+            <p>
+              La narrativa visual del sitio web guía al usuario a través del
+              scroll como un medio para contar una historia de recompensa y
+              participación. La estructura del relato sigue una progresión
+              lógica y motivadora, diseñada para llevar al usuario desde la
+              curiosidad del juego hasta la promesa de la recompensa económica.
+            </p>
+          </div>
         </div>
+
+        <h2 class="elementos-destacados">ELEMENTOS DESTACADOS</h2>
+        <div class="capturas-grid">
+          <div class="captura-item" data-aos="fade-up">
+            <img
+              src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%201%20INK%20GAMES.png?updatedAt=1761048640431"
+              alt="Hero Section"
+            />
+            <p class="captura-descripcion">
+              Tarjeta donde se combina el 2D con el 3D.
+            </p>
+          </div>
+
+          <div class="captura-item" data-aos="fade-up">
+            <img
+              src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%202%20INK%20GAMES.png?updatedAt=1761048640195"
+            />
+            <p class="captura-descripcion">
+              Scroll interactivo, a medida que el usuario hace scroll-down, el
+              texto se rellena de blanco.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion-section" data-aos="fade-up">
+        <h2>CONCLUSIÓN</h2>
+        <p>
+          La principal fortaleza de INK GAMES es el impacto visual y la
+          creatividad, con sus animaciones transmiten una sensación de
+          profundidad construyendo una marca con personalidad y de alta calidad.
+          El uso estratégico de elementos 3D como las tarjetas superpuestas,
+          guían al usuario a través de su propuesta de valor "Jugar para ganar"
+          de manera controlada. Sin embargo, su principal debilidad se encuentra
+          en la Usabilidad (el puntaje más bajo en Awwwards), la intensidad de
+          estas animaciones y la carga visual generan una leve fricción o
+          lentitud en el rendimiento. Para ser impecable, INK Games debería
+          mejorar la optimización de sus recursos visuales, asegurando que la
+          experiencia no se traduzca en una espera frustrante o una degradación
+          de la fluidez en dispositivos menos potentes.
+        </p>
+      </section>
+    </main>
+
+    <footer
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1500"
+      id="contacto"
+    >
+      <h2>CONTACTO</h2>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_HorizontalBlano.svg?updatedAt=1760980637733"
+            alt=""
+          />
+        </div>
+        <div class="social-links">
+          <a target="_blank" href="https://www.instagram.com/rbn.designs/"
+            >INSTAGRAM</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/rub%C3%A9n-mardomingo-dom%C3%ADnguez-353567361/"
+            >LINKEDIN</a
+          >
+          <a target="_blank" href="https://www.behance.net/rubnm2">BEHANCE</a>
+        </div>
+      </div>
     </footer>
 
-
-  <script src="js/script.js"></script>
-  <script>
-  AOS.init();
-  </script>
-</body> 
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
-

@@ -1,181 +1,228 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
-  <link rel="stylesheet" href="../assets/css/sow.css">
-  <link rel="stylesheet" href="../assets/css/ejercicio1.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
+    <link rel="stylesheet" href="../assets/css/sow.css" />
+    <link rel="stylesheet" href="../assets/css/ejercicio1.css" />
 
     <!-- enlace remix icons -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
 
+    <!-- Enlace a Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Enlace a Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">  
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-
-
-   <!-- jQuery -->
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-   <!-- Enlace al CSS de AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Enlace al CSS de AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
     <!-- Enlace GoogleFonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
 
+  <body>
+    <header data-aos="fade-down" data-aos-duration="2000">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_VerticalBlanco.svg?updatedAt=1760980637728"
+            alt=""
+        /></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+      <nav id="nav">
+        <a href="web-1.html">WEB 1</a>
+        <a href="web-2.html">WEB 2</a>
+        <a href="web-3.html">WEB 3</a>
+        <a href="web-4.html">WEB 4</a>
+      </nav>
 
-</head>
-
-<body>
-   <header data-aos="fade-down" data-aos-duration="2000">
-           <div class="logo">
-          <a href="index.html"><img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_VerticalBlanco.svg?updatedAt=1760980637728" alt=""></a>
-        </div>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <nav id="nav">
-            <a href="web-1.html">WEB 1</a>
-            <a href="web-2.html">WEB 2</a>
-            <a href="web-3.html">WEB 3</a>
-            <a href="web-4.html">WEB 4</a>
-        </nav>
-
-        <div class="icono-derecha">
-            <img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Isotipo_Blanco.svg?updatedAt=1760980637768" alt="">
-        </div>
-
+      <div class="icono-derecha">
+        <img
+          src="https://ik.imagekit.io/jzanz3klfl/portfolio/Isotipo_Blanco.svg?updatedAt=1760980637768"
+          alt=""
+        />
+      </div>
     </header>
 
     <main>
-        <section class="proyecto-hero" data-aos="fade-up">
-            <h1>QUANTUM BODY</h1>
-            
-            <div class="proyecto-meta">
-                <div>
-                    <strong>CATEGORÍA</strong>
-                    <span>Portafolio / Arte Digital</span>
-                </div>
-                <div>
-                    <strong>PREMIOS</strong>
-                    <span>Awwwards & Favorite Website Awards</span>
-                </div>
-                <div>
-                    <strong>AÑO</strong>
-                    <span>2024</span>
-                </div>
-            </div>
+      <section class="proyecto-hero" data-aos="fade-up">
+        <h1>QUANTUM BODY</h1>
 
-
-            <a href="https://www.quantumbody.io/" class="proyecto-link" target="_blank">
-                VISITAR SITIO WEB
-                <i class="ri-external-link-line"></i>
-            </a>
-        </section>
-
-        <div class="proyecto-imagen-principal" data-aos="fade-up">
-            <iframe src="https://www.quantumbody.io/" title="Vista previa del sitio web"></iframe>
+        <div class="proyecto-meta">
+          <div>
+            <strong>CATEGORÍA</strong>
+            <span>Portafolio / Arte Digital</span>
+          </div>
+          <div>
+            <strong>PREMIOS</strong>
+            <span>Awwwards & Favorite Website Awards</span>
+          </div>
+          <div>
+            <strong>AÑO</strong>
+            <span>2024</span>
+          </div>
         </div>
 
-        <section class="analisis-section">
-            <div class="analisis-grid">
-                <div class="analisis-item" data-aos="fade-up">
-                    <h3>DISEÑO VISUAL</h3>
-                    <p>
-                        El diseño visual de Quantum Body busca ser un puente entre la ciencia y la espiritualidad. Para lograrlo, utiliza una paleta de colores suaves, con degradados sencillos que transmiten armonía y energía. Estos se combinan con tipografías sans-serif claras y legibles, que aportan un equilibrio a la web. El uso del modo pantalla completa elimina distracciones y genera una experiencia inmersiva.
+        <a
+          href="https://www.quantumbody.io/"
+          class="proyecto-link"
+          target="_blank"
+        >
+          VISITAR SITIO WEB
+          <i class="ri-external-link-line"></i>
+        </a>
+      </section>
 
-                    </p>
-                </div>
+      <div class="proyecto-imagen-principal" data-aos="fade-up">
+        <iframe
+          src="https://www.quantumbody.io/"
+          title="Vista previa del sitio web"
+        ></iframe>
+      </div>
 
-                <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>EXPERIENCIA DE USUARIO</h3>
-                    <p>
-                        Nos encontramos con una experiencia fluida y narrativa, donde el usuario avanza por un viaje continuo más que por páginas separadas.  La navegación essuave, sin cortes ni sobresaltos, con transiciones que fluyen como un solo movimiento. Esta fluidez no solo mejora la experiencia técnica, sino que simboliza el estado de armonía que el proyecto invita a alcanzar.
-                </div>
-
-                <div class="analisis-item" data-aos="fade-up">
-                    <h3>INNOVACIÓN</h3>
-                    <ul>
-                        <li>Animaciones de partículas y morphing en un entorno fullscreen</li>
-                        <li>Simular un propio entorno dentro de la web.</li>
-                        <li>Uso de glassmorphism u otro efecto similar.</li>
-                    </ul>
-                </div>
-
-                <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>NARRATIVA VISUAL</h3>
-                    <p>
-                       El objetivo narrativo de Quantum Body es guiar al usuario a través de un proceso de transformación. El scroll se convierte en el mecanismo primario para simular este "viaje inolvidable". La metodología narrativa es el Scroll-Telling, donde cada sección representa una etapa del viaje hacia la coherencia, y el movimiento desvela, transforma o revela el contenido, evitando cualquier presentación estática.
-                    </p>
-                </div>
-            </div>
-
-
-            <h2 class="elementos-destacados"> ELEMENTOS DESTACADOS</h2>
-            <div class="capturas-grid">
-                <div class="captura-item" data-aos="fade-up">
-                    <img src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%201%20Quantum%20Body.png?updatedAt=1761066129585">
-                    <p class="captura-descripcion">Elementos SVGs interactivos con el usuario.</p>
-                </div>
-
-                <div class="captura-item" data-aos="fade-up">
-                    <img src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%202%20Quantum%20Body.png?updatedAt=1761066129532">
-                    <p class="captura-descripcion">Componentes propios de UI.</p>
-                    </p>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="conclusion-section" data-aos="fade-up">
-            <h2>CONCLUSIÓN</h2>
+      <section class="analisis-section">
+        <div class="analisis-grid">
+          <div class="analisis-item" data-aos="fade-up">
+            <h3>DISEÑO VISUAL</h3>
             <p>
-                La página Quantum Body traduce a la perfección un mensaje complejo sobre bienestar en una experiencia digital muy clara. El gran acierto es la coherencia total entre la idea y el diseño, la web fluye de manera impecable y suave, lo que refleja directamente la calma y el equilibrio que promueve la marca Sin embargo, lo que se podría mejorar es su accesibilidad general, ya que su gran ambición visual podría fallar en dispositivos antiguos. Además, para mantener la sensación de lujo, la calidad de los videos podría ser mejorable. Un contenido visual de baja resolución rompe con la elegancia general del diseño y podría disminuir la percepción de valor de la marca.
+              El diseño visual de Quantum Body busca ser un puente entre la
+              ciencia y la espiritualidad. Para lograrlo, utiliza una paleta de
+              colores suaves, con degradados sencillos que transmiten armonía y
+              energía. Estos se combinan con tipografías sans-serif claras y
+              legibles, que aportan un equilibrio a la web. El uso del modo
+              pantalla completa elimina distracciones y genera una experiencia
+              inmersiva.
             </p>
+          </div>
 
-        </section>
+          <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>EXPERIENCIA DE USUARIO</h3>
+            <p>
+              Nos encontramos con una experiencia fluida y narrativa, donde el
+              usuario avanza por un viaje continuo más que por páginas
+              separadas. La navegación essuave, sin cortes ni sobresaltos, con
+              transiciones que fluyen como un solo movimiento. Esta fluidez no
+              solo mejora la experiencia técnica, sino que simboliza el estado
+              de armonía que el proyecto invita a alcanzar.
+            </p>
+          </div>
 
-        </section>
+          <div class="analisis-item" data-aos="fade-up">
+            <h3>INNOVACIÓN</h3>
+            <ul>
+              <li>
+                Animaciones de partículas y morphing en un entorno fullscreen
+              </li>
+              <li>Simular un propio entorno dentro de la web.</li>
+              <li>Uso de glassmorphism u otro efecto similar.</li>
+            </ul>
+          </div>
 
-    </main>
-    
-
-    <footer data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="1500"id="contacto">
-        <h2>CONTACTO</h2>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_HorizontalBlano.svg?updatedAt=1760980637733" alt="">
-            </div>
-            <div class="social-links">
-                <a target="_blank" href="https://www.instagram.com/rbn.designs/">INSTAGRAM</a>
-                <a target="_blank"  href="https://www.linkedin.com/in/rub%C3%A9n-mardomingo-dom%C3%ADnguez-353567361/">LINKEDIN</a>
-                <a  target="_blank" href="https://www.behance.net/rubnm2">BEHANCE</a>
-            </div>
+          <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>NARRATIVA VISUAL</h3>
+            <p>
+              El objetivo narrativo de Quantum Body es guiar al usuario a través
+              de un proceso de transformación. El scroll se convierte en el
+              mecanismo primario para simular este "viaje inolvidable". La
+              metodología narrativa es el Scroll-Telling, donde cada sección
+              representa una etapa del viaje hacia la coherencia, y el
+              movimiento desvela, transforma o revela el contenido, evitando
+              cualquier presentación estática.
+            </p>
+          </div>
         </div>
+
+        <h2 class="elementos-destacados">ELEMENTOS DESTACADOS</h2>
+        <div class="capturas-grid">
+          <div class="captura-item" data-aos="fade-up">
+            <img
+              src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%201%20Quantum%20Body.png?updatedAt=1761066129585"
+            />
+            <p class="captura-descripcion">
+              Elementos SVGs interactivos con el usuario.
+            </p>
+          </div>
+
+          <div class="captura-item" data-aos="fade-up">
+            <img
+              src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%202%20Quantum%20Body.png?updatedAt=1761066129532"
+            />
+            <p class="captura-descripcion">Componentes propios de UI.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion-section" data-aos="fade-up">
+        <h2>CONCLUSIÓN</h2>
+        <p>
+          La página Quantum Body traduce a la perfección un mensaje complejo
+          sobre bienestar en una experiencia digital muy clara. El gran acierto
+          es la coherencia total entre la idea y el diseño, la web fluye de
+          manera impecable y suave, lo que refleja directamente la calma y el
+          equilibrio que promueve la marca Sin embargo, lo que se podría mejorar
+          es su accesibilidad general, ya que su gran ambición visual podría
+          fallar en dispositivos antiguos. Además, para mantener la sensación de
+          lujo, la calidad de los videos podría ser mejorable. Un contenido
+          visual de baja resolución rompe con la elegancia general del diseño y
+          podría disminuir la percepción de valor de la marca.
+        </p>
+      </section>
+    </main>
+
+    <footer
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1500"
+      id="contacto"
+    >
+      <h2>CONTACTO</h2>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_HorizontalBlano.svg?updatedAt=1760980637733"
+            alt=""
+          />
+        </div>
+        <div class="social-links">
+          <a target="_blank" href="https://www.instagram.com/rbn.designs/"
+            >INSTAGRAM</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/rub%C3%A9n-mardomingo-dom%C3%ADnguez-353567361/"
+            >LINKEDIN</a
+          >
+          <a target="_blank" href="https://www.behance.net/rubnm2">BEHANCE</a>
+        </div>
+      </div>
     </footer>
 
-
-  <script src="js/script.js"></script>
-  <script>
-  AOS.init();
-  </script>
-</body> 
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
-

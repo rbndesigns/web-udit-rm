@@ -1,174 +1,224 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
-  <link rel="stylesheet" href="../assets/css/sow.css">
-  <link rel="stylesheet" href="../assets/css/ejercicio1.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
+    <link rel="stylesheet" href="../assets/css/sow.css" />
+    <link rel="stylesheet" href="../assets/css/ejercicio1.css" />
 
     <!-- enlace remix icons -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
 
+    <!-- Enlace a Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Enlace a Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">  
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-
-
-   <!-- jQuery -->
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-   <!-- Enlace al CSS de AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Enlace al CSS de AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <body>
+    <header data-aos="fade-down" data-aos-duration="2000">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_VerticalBlanco.svg?updatedAt=1760980637728"
+            alt=""
+        /></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-</head>
+      <nav id="nav">
+        <a href="web-1.html">WEB 1</a>
+        <a href="web-2.html">WEB 2</a>
+        <a href="web-3.html">WEB 3</a>
+        <a href="web-4.html">WEB 4</a>
+      </nav>
 
-<body>
-   <header data-aos="fade-down" data-aos-duration="2000">
-           <div class="logo">
-          <a href="index.html"><img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_VerticalBlanco.svg?updatedAt=1760980637728" alt=""></a>
-        </div>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <nav id="nav">
-            <a href="web-1.html">WEB 1</a>
-            <a href="web-2.html">WEB 2</a>
-            <a href="web-3.html">WEB 3</a>
-            <a href="web-4.html">WEB 4</a>
-        </nav>
-
-        <div class="icono-derecha">
-            <img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Isotipo_Blanco.svg?updatedAt=1760980637768" alt="">
-        </div>
-
+      <div class="icono-derecha">
+        <img
+          src="https://ik.imagekit.io/jzanz3klfl/portfolio/Isotipo_Blanco.svg?updatedAt=1760980637768"
+          alt=""
+        />
+      </div>
     </header>
 
     <main>
-        <section class="proyecto-hero" data-aos="fade-up">
-            <h1>LAYRID</h1>
-            
-            <div class="proyecto-meta">
-                <div>
-                    <strong>CATEGORÍA</strong>
-                    <span>Portafolio / Arte Digital</span>
-                </div>
-                <div>
-                    <strong>PREMIOS</strong>
-                    <span>Awwwards & CSS Design Awards</span>
-                </div>
-                <div>
-                    <strong>AÑO</strong>
-                    <span>2020</span>
-                </div>
-            </div>
+      <section class="proyecto-hero" data-aos="fade-up">
+        <h1>LAYRID</h1>
 
-
-            <a href="https://layrid.tomoyaokada.com/" class="proyecto-link" target="_blank">
-                VISITAR SITIO WEB
-                <i class="ri-external-link-line"></i>
-            </a>
-        </section>
-
-        <div class="proyecto-imagen-principal" data-aos="fade-up">
-            <iframe src="https://layrid.tomoyaokada.com/" title="Vista previa del sitio web"></iframe>
+        <div class="proyecto-meta">
+          <div>
+            <strong>CATEGORÍA</strong>
+            <span>Portafolio / Arte Digital</span>
+          </div>
+          <div>
+            <strong>PREMIOS</strong>
+            <span>Awwwards & CSS Design Awards</span>
+          </div>
+          <div>
+            <strong>AÑO</strong>
+            <span>2020</span>
+          </div>
         </div>
 
-        <section class="analisis-section">
-            <div class="analisis-grid">
-                <div class="analisis-item" data-aos="fade-up">
-                    <h3>DISEÑO VISUAL</h3>
-                    <p>
-                        El diseño visual se caracteriza por ser minimalista y sistemático, priorizando la reducción del ruido visual para que las 100 creaciones (muchas de las cuales son visualmente complejas) puedan destacarse sin competir con la interfaz.  El  movimiento en esta web es un pilar fundamental. Se presta una atención rigurosa a la animación, ajustando el easing y el timing hasta el mas minimo detalle. 
-                    </p>
-                </div>
+        <a
+          href="https://layrid.tomoyaokada.com/"
+          class="proyecto-link"
+          target="_blank"
+        >
+          VISITAR SITIO WEB
+          <i class="ri-external-link-line"></i>
+        </a>
+      </section>
 
-                <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>EXPERIENCIA DE USUARIO</h3>
-                    <p>
-                        La navegación está diseñada para ser sistemática y funcional, garantizando que el usuario pueda saltar entre las categorías sin experimentar la fricción que a menudo se observa en otras páginas web. La estructura de la información es clara y lógica, facilitando la exploración del portafolio.
-                </div>
+      <div class="proyecto-imagen-principal" data-aos="fade-up">
+        <iframe
+          src="https://layrid.tomoyaokada.com/"
+          title="Vista previa del sitio web"
+        ></iframe>
+      </div>
 
-                <div class="analisis-item" data-aos="fade-up">
-                    <h3>INNOVACIÓN</h3>
-                    <ul>
-                        <li>Capacidad de implementar 100 proyectos sin que se solapen entre si.</li>
-                        <li>Imágenes que se transforman.</li>
-                        <li>Combinar Inglés y Japones de forma estética.</li>
-                    </ul>
-                </div>
-
-                <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>NARRATIVA VISUAL</h3>
-                    <p>
-                        La narrativa visual transforma el portafolio en una historia de crecimiento profesional y dedicación. El relato se construye a través de la secuencia de las categorías temáticas: Exploration (la etapa fundacional de aprendizaje) conduce a Growth (la maduración de las habilidades) y culmina en Expression (la voz creativa definida). La estructura temática es la historia.
-                    </p>
-                </div>
-            </div>
-
-
-            <h2 class="elementos-destacados"> ELEMENTOS DESTACADOS</h2>
-            <div class="capturas-grid">
-                <div class="captura-item" data-aos="fade-up">
-                    <img src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%201%20layrid.png?updatedAt=1761049977758">
-                    <p class="captura-descripcion">Metamorfosis de imágenes a través del scroll.</p>
-                </div>
-
-                <div class="captura-item" data-aos="fade-up">
-                    <img src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%202%20layrid.png?updatedAt=1761049977742">
-                    <p class="captura-descripcion">Vista previa de cada uno de los proyectos al pasar el mouse por encima.
-                    </p>
-                </div>
-
-
-            </div>
-        </section>
-
-        <section class="conclusion-section" data-aos="fade-up">
-            <h2>CONCLUSIÓN</h2>
+      <section class="analisis-section">
+        <div class="analisis-grid">
+          <div class="analisis-item" data-aos="fade-up">
+            <h3>DISEÑO VISUAL</h3>
             <p>
-               Layrid es un modelo a seguir en el diseño de portafolios personales, demostrando que el crecimiento profesional puede ser una experiencia digital excepcional. Su principal fortaleza reside en la ejecución técnica impecable. Los 100 proyectos se muestran de manera artística sin que la web se sienta lenta o difícil de usar, gracias a la precisión extrema en la animación y una estructura de contenido clara. Lo que podría mejorar es asegurarse de que el lenguaje sea más accesible. Si bien el sitio es un testimonio del camino a la maestría, podría arriesgarse a ser demasiado enfocado a la industria del diseño. Para maximizar su alcanze, se podrían simplificar los mensajes filosóficos para inspirar a una audiencia más amplia de creativos, no solo a desarrolladores de élite.
+              El diseño visual se caracteriza por ser minimalista y sistemático,
+              priorizando la reducción del ruido visual para que las 100
+              creaciones (muchas de las cuales son visualmente complejas) puedan
+              destacarse sin competir con la interfaz. El movimiento en esta web
+              es un pilar fundamental. Se presta una atención rigurosa a la
+              animación, ajustando el easing y el timing hasta el mas minimo
+              detalle.
             </p>
+          </div>
 
-        </section>
+          <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>EXPERIENCIA DE USUARIO</h3>
+            <p>
+              La navegación está diseñada para ser sistemática y funcional,
+              garantizando que el usuario pueda saltar entre las categorías sin
+              experimentar la fricción que a menudo se observa en otras páginas
+              web. La estructura de la información es clara y lógica,
+              facilitando la exploración del portafolio.
+            </p>
+          </div>
 
-        </section>
+          <div class="analisis-item" data-aos="fade-up">
+            <h3>INNOVACIÓN</h3>
+            <ul>
+              <li>
+                Capacidad de implementar 100 proyectos sin que se solapen entre
+                si.
+              </li>
+              <li>Imágenes que se transforman.</li>
+              <li>Combinar Inglés y Japones de forma estética.</li>
+            </ul>
+          </div>
 
-    </main>
-    
-
-    <footer data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="1500"id="contacto">
-        <h2>CONTACTO</h2>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_HorizontalBlano.svg?updatedAt=1760980637733" alt="">
-            </div>
-            <div class="social-links">
-                <a target="_blank" href="https://www.instagram.com/rbn.designs/">INSTAGRAM</a>
-                <a target="_blank"  href="https://www.linkedin.com/in/rub%C3%A9n-mardomingo-dom%C3%ADnguez-353567361/">LINKEDIN</a>
-                <a  target="_blank" href="https://www.behance.net/rubnm2">BEHANCE</a>
-            </div>
+          <div class="analisis-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>NARRATIVA VISUAL</h3>
+            <p>
+              La narrativa visual transforma el portafolio en una historia de
+              crecimiento profesional y dedicación. El relato se construye a
+              través de la secuencia de las categorías temáticas: Exploration
+              (la etapa fundacional de aprendizaje) conduce a Growth (la
+              maduración de las habilidades) y culmina en Expression (la voz
+              creativa definida). La estructura temática es la historia.
+            </p>
+          </div>
         </div>
+
+        <h2 class="elementos-destacados">ELEMENTOS DESTACADOS</h2>
+        <div class="capturas-grid">
+          <div class="captura-item" data-aos="fade-up">
+            <img
+              src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%201%20layrid.png?updatedAt=1761049977758"
+            />
+            <p class="captura-descripcion">
+              Metamorfosis de imágenes a través del scroll.
+            </p>
+          </div>
+
+          <div class="captura-item" data-aos="fade-up">
+            <img
+              src="https://ik.imagekit.io/jzanz3klfl/sow/Elemento%202%20layrid.png?updatedAt=1761049977742"
+            />
+            <p class="captura-descripcion">
+              Vista previa de cada uno de los proyectos al pasar el mouse por
+              encima.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion-section" data-aos="fade-up">
+        <h2>CONCLUSIÓN</h2>
+        <p>
+          Layrid es un modelo a seguir en el diseño de portafolios personales,
+          demostrando que el crecimiento profesional puede ser una experiencia
+          digital excepcional. Su principal fortaleza reside en la ejecución
+          técnica impecable. Los 100 proyectos se muestran de manera artística
+          sin que la web se sienta lenta o difícil de usar, gracias a la
+          precisión extrema en la animación y una estructura de contenido clara.
+          Lo que podría mejorar es asegurarse de que el lenguaje sea más
+          accesible. Si bien el sitio es un testimonio del camino a la maestría,
+          podría arriesgarse a ser demasiado enfocado a la industria del diseño.
+          Para maximizar su alcanze, se podrían simplificar los mensajes
+          filosóficos para inspirar a una audiencia más amplia de creativos, no
+          solo a desarrolladores de élite.
+        </p>
+      </section>
+    </main>
+
+    <footer
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1500"
+      id="contacto"
+    >
+      <h2>CONTACTO</h2>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="https://ik.imagekit.io/jzanz3klfl/portfolio/Logotipo_HorizontalBlano.svg?updatedAt=1760980637733"
+            alt=""
+          />
+        </div>
+        <div class="social-links">
+          <a target="_blank" href="https://www.instagram.com/rbn.designs/"
+            >INSTAGRAM</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/rub%C3%A9n-mardomingo-dom%C3%ADnguez-353567361/"
+            >LINKEDIN</a
+          >
+          <a target="_blank" href="https://www.behance.net/rubnm2">BEHANCE</a>
+        </div>
+      </div>
     </footer>
 
-
-  <script src="js/script.js"></script>
-  <script>
-  AOS.init();
-  </script>
-</body> 
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
-
