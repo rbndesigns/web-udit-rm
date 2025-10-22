@@ -85,21 +85,21 @@ font-family: "DM Sans", sans-serif;
         }
 
         .analisis-item h3 {
-font-family: "DM Sans", sans-serif;
+        font-family: "DM Sans", sans-serif;
             font-size: 2rem;
             letter-spacing: 0.05em;
             margin-bottom: 1.5rem;
         }
 
         .analisis-item p {
-            font-family: Satoshi-R;
+            font-family: "DM Sans", sans-serif;
             font-size: 1.1rem;
             line-height: 1.8;
             opacity: 0.9;
         }
 
         .analisis-item ul {
-            font-family: Satoshi-R;
+            font-family: "DM Sans", sans-serif;
             font-size: 1.1rem;
             line-height: 1.8;
             opacity: 0.9;
@@ -130,7 +130,7 @@ font-family: "DM Sans", sans-serif;
         }
 
         .captura-descripcion {
-            font-family: Satoshi-R;
+            font-family: "DM Sans", sans-serif;
             font-size: 1rem;
             opacity: 0.7;
             margin-top: 1rem;
@@ -138,7 +138,7 @@ font-family: "DM Sans", sans-serif;
         }
 
       .elementos-destacados {
-         font-family: Casper-M;
+         font-family: "DM Sans", sans-serif;
         font-size: 3rem;
         letter-spacing: 0.05em;
         margin-bottom: 2rem;
@@ -154,14 +154,14 @@ font-family: "DM Sans", sans-serif;
         }
 
         .conclusion-section h2 {
-            font-family: Casper-M;
+            font-family: "DM Sans", sans-serif;
             font-size: 3rem;
             letter-spacing: 0.05em;
             margin-bottom: 2rem;
         }
 
         .conclusion-section p {
-            font-family: Satoshi-R;
+            font-family: "DM Sans", sans-serif;
             font-size: 1.2rem;
             line-height: 1.8;
             opacity: 0.9;
