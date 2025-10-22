@@ -137,6 +137,36 @@ font-family: "DM Sans", sans-serif;
             padding: 0 1rem;
         }
 
+      .elementos-destacados {
+         font-family: Casper-M;
+        font-size: 3rem;
+        letter-spacing: 0.05em;
+        margin-bottom: 2rem;
+        }
+
+
+
+        .conclusion-section {
+            padding: 6rem 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .conclusion-section h2 {
+            font-family: Casper-M;
+            font-size: 3rem;
+            letter-spacing: 0.05em;
+            margin-bottom: 2rem;
+        }
+
+        .conclusion-section p {
+            font-family: Satoshi-R;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+
   
 
     
@@ -186,5 +216,12 @@ font-family: "DM Sans", sans-serif;
         min-height: 300px;
     }
 
+    .conclusion-section h2 {
+                font-size: 2rem;
+            }
+
+    .elementos-destacados h2 {
+                font-size: 2rem;
+     }
 
 }
